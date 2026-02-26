@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <title>Little haven</title>
+  </head>
+  <body class="font-serif bg-lavendarBlush relative">
+    <header
+      class="relative md:flex md:justify-between md:items-center bg-richMahogany text-lavendarBlush"
+    >
+      <section class="flex justify-between flex-1 p-4">
+        <h1
+          class="font-['Italianno'] font-bold text-5xl md:text-7xl sm:hover:tracking-wider transition-all duration-300 ease-in-out"
+        >
+          NyxTech
+        </h1>
+        <svg
+          id="burger"
+          class="w-8 h-8 md:hidden cursor-pointer"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            id="burgerSrc"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </section>
+      <nav
+        id="menu"
+        class="max-h-0 opacity-0 transition-all duration-500 ease-in-out md:max-h-full md:opacity-100 md:block md:flex-1"
+      >
+        <ul
+          class="grid grid-cols-2 md:flex md:flex-row md:justify-evenly p-1"
+        >
+          <li
+            class="border-lavendarBlush border-r-4 md:border-b-4 md:border-r-0 mx-2 px-1 w-fit h-fit text-lg"
+          >
+            <a href="#" class="flex font-bold">
+              <span>Home</span>
+              <svg
+                class="w-6 h-6 ml-1"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="mx-2 p-1 w-fit text-lg">
+            <a href="#" class="flex font-bold">
+              <span>About</span>
+              <svg
+                class="w-6 h-6 ml-1"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="mx-2 p-1 w-fit text-lg">
+            <a href="#" class="flex font-bold">
+              <span>Contact</span>
+              <svg
+                class="w-6 h-6 ml-1"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="mx-2 p-1 w-fit text-lg">
+            <a href="#" class="flex font-bold">
+              <span>Locations</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+        <div class="text-center p-6 font-bold">
+            <h1 class="font-['Source_Serif_4'] text-7xl sm:text-9xl bg-gradient-to-r 
+           from-midnightViolet via-ashBrown to-nightBordeaux 
+           bg-clip-text text-transparent">NyxTech</h1>
+            <p class="text-sm md:text-2xl">Threats Evolve. So Do We</p>
+        </div>
+    </section>
+    <section class="py-10">
+      <h2 class="text-3xl sm:text-5xl font-bold text-center pb-6">About us</h2>
+      <p class="text-xl w-[90%] m-auto">
+        NyxTech is a results-driven cybersecurity firm protecting enterprises against evolving digital threats. Our certified experts hold CISSP, CEH, and OSCP credentials, delivering advanced penetration testing, cloud security architecture, incident response, and zero-trust implementation. We combine AI-powered threat intelligence with disciplined security engineering to minimize risk and maximize resilience. Recognized with multiple industry excellence awards and trusted by global clients across finance, healthcare, and technology sectors, we maintain uncompromising standards of confidentiality and compliance. Through continuous monitoring, red teaming, and strategic advisory, we safeguard critical assets, strengthen operational continuity, and enable secure innovation in an increasingly hostile digital landscape.
+      </p>
+    </section>
+    <main>
+    <p class="text-center text-5xl font-bold">Meet our experts</p>
+      <section class="p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
+        <section
+          class="overflow-hidden rounded-lg flex flex-col gap-4 hover:shadow-xl hover:shadow-richMahogany/70 hover:scale-105 bg-gradient-to-r from-taupe to-rosyTaupe hover:to-ashBrown transition-all duration-300 ease-in-out pb-6"
+        >
+          <img
+            src="images/image1.jpeg"
+            alt="image of a baby crib"
+            class="w-full object-cover h-50"
+          />
+          <h2 class="text-2xl font-bold tracking-wider px-4">Agate Ailleboust</h2>
+          <div class="px-4 flex flex-col gap-4">
+            <p class="font-bold text-xl">Chief Executive Officer</p>
+            <p class="text-sm">Visionary strategist, MBA, transformative leadership, driving scalable global growth.</p>
+          </div>
+          <button class="bg-richMahogany text-lavendarBlush px-8 py-4 w-[70%] m-auto rounded-2xl text-xl cursor-pointer bg-gradient-to-r hover:from-ashBrown">Connect</button>
+        </section>
+        <section
+          class="overflow-hidden rounded-lg flex flex-col gap-4 hover:shadow-xl hover:shadow-richMahogany/70 hover:scale-105 bg-gradient-to-r from-taupe to-rosyTaupe hover:to-ashBrown  transition-all duration-300 ease-in-out pb-6"
+        >
+          <img
+            src="images/image3.jpeg"
+            alt="image of table and chair for toddlers"
+            class="w-full object-cover h-50"
+          />
+          <h2 class="text-2xl font-bold tracking-wider px-4">
+            Christopher M. Sommer
+          </h2>
+          <div class="px-4 flex flex-col gap-4">
+            <p class="font-bold text-xl">Chief Technology Officer</p>
+            <p class="text-sm">Innovator, cloud architect, AI expert, delivering robust technical solutions.</p>
+          </div>
+          <button class="bg-richMahogany text-lavendarBlush px-8 py-4 w-[70%] m-auto rounded-2xl text-xl cursor-pointer bg-gradient-to-r hover:from-ashBrown">Connect</button>
+        </section>
+        <section
+          class="overflow-hidden rounded-lg flex flex-col gap-4 hover:shadow-xl hover:shadow-richMahogany/70 hover:scale-105 bg-gradient-to-r from-taupe to-rosyTaupe hover:to-ashBrown  transition-all duration-300 ease-in-out pb-6"
+       >
+          <img
+            src="images/image2.jpeg"
+            alt="image of a toy car for toddlers"
+            class="w-full object-cover h-50"
+          />
+          <h2 class="text-2xl font-bold tracking-wider px-4">Gretta E. Carmona</h2>
+          <div class="px-4 flex flex-col gap-4">
+            <p class="font-bold text-xl">Lead DevOps/ Site Reliability Engineer</p>
+            <p class="text-sm">Certified AWS, kubernetes specialist, optimizing systems for high availability.</p>
+          </div>
+          <button class="bg-richMahogany text-lavendarBlush px-8 py-4 w-[70%] m-auto rounded-2xl text-xl cursor-pointer bg-gradient-to-r hover:from-ashBrown">Connect</button>
+        </section>
+        <section
+          class="overflow-hidden rounded-lg flex flex-col gap-4 hover:shadow-xl hover:shadow-richMahogany/70 hover:scale-105 bg-gradient-to-r from-taupe to-rosyTaupe hover:to-ashBrown  transition-all duration-300 ease-in-out pb-6"
+        >
+          <img
+            src="images/image4.jpeg"
+            alt="image of a toy set for toddlers"
+            class="w-full object-cover h-50"
+          />
+          <h2 class="text-2xl font-bold tracking-wider px-4">Ayodele M. Chunks</h2>
+          <div class="px-4 flex flex-col gap-4">
+            <p class="font-bold text-xl">Lead software Engineer</p>
+            <p class="text-sm">Full-stack expert, agile practioner, building scalable, maintainable software solutions.</p>
+          </div>
+          <button class="bg-richMahogany text-lavendarBlush px-8 py-4 w-[70%] m-auto rounded-2xl text-xl cursor-pointer bg-gradient-to-r hover:from-ashBrown">Connect</button>
+        </section>
+        <section
+          class="overflow-hidden rounded-lg flex flex-col gap-4 hover:shadow-xl hover:shadow-richMahogany/70 hover:scale-105 bg-gradient-to-r from-taupe to-rosyTaupe hover:to-ashBrown  transition-all duration-300 ease-in-out pb-6"
+        >
+          <img
+            src="images/image7.jpeg"
+            alt="image of a baby crib"
+            class="w-full object-cover h-50"
+          />
+          <h2 class="text-2xl font-bold tracking-wider px-4">George D. Shook</h2>
+          <div class="px-4 flex flex-col gap-4">
+            <p class="font-bold text-xl">Lead Cybersecurity Engineer</p>
+            <p class="text-sm">CISSP certified, threat mitigation specialist, safeguarding enterprise digital infrastructure.</p>
+          </div>
+          <button class="bg-richMahogany text-lavendarBlush px-8 py-4 w-[70%] m-auto rounded-2xl text-xl cursor-pointer bg-gradient-to-r hover:from-ashBrown">Connect</button>
+        </section>
+        <section
+          class="overflow-hidden rounded-lg flex flex-col gap-4 hover:shadow-xl hover:shadow-richMahogany/70 hover:scale-105 bg-gradient-to-r from-taupe to-rosyTaupe hover:to-ashBrown  transition-all duration-300 ease-in-out pb-6"
+        >
+          <img
+            src="images/image5.jpeg"
+            alt="image of table and chair for toddlers"
+            class="w-full object-cover h-50"
+          />
+          <h2 class="text-2xl font-bold tracking-wider px-4">
+            Stacey J. Salazar
+          </h2>
+          <div class="px-4 flex flex-col gap-4">
+            <p class="font-bold text-xl">Chief Financial Officer</p>
+            <p class="text-sm">CPA, Financial strategist, optimizing budgets, driving profitable organizational growth.</p>
+          </div>
+          <button class="bg-richMahogany text-lavendarBlush px-8 py-4 w-[70%] m-auto rounded-2xl text-xl cursor-pointer bg-gradient-to-r hover:from-ashBrown">Connect</button>
+        </section>
+        <section
+          class="overflow-hidden rounded-lg flex flex-col gap-4 hover:shadow-xl hover:shadow-richMahogany/70 hover:scale-105 bg-gradient-to-r from-taupe to-rosyTaupe hover:to-ashBrown  transition-all duration-300 ease-in-out pb-6"
+        >
+          <img
+            src="images/image8.jpeg"
+            alt="image of a toy car for toddlers"
+            class="w-full object-cover h-50"
+          />
+          <h2 class="text-2xl font-bold tracking-wider px-4">Mark R. Dawson</h2>
+          <div class="px-4 flex flex-col gap-4">
+            <p class="font-bold text-xl">HR/ Talent Acquisition officer</p>
+            <p class="text-sm">Certified HR professional, strategic recruiter, building high-performance, inclusive teams.</p>
+          </div>
+          <button class="bg-richMahogany text-lavendarBlush px-8 py-4 w-[70%] m-auto rounded-2xl text-xl cursor-pointer bg-gradient-to-r hover:from-ashBrown">Connect</button>
+        </section>
+        <section
+          class="overflow-hidden rounded-lg flex flex-col gap-4 hover:shadow-xl hover:shadow-richMahogany/70 hover:scale-105 bg-gradient-to-r from-taupe to-rosyTaupe hover:to-ashBrown  transition-all duration-300 ease-in-out pb-6"
+        >
+          <img
+            src="images/image6.jpeg"
+            alt="image of a toy set for toddlers"
+            class="w-full object-cover h-50"
+          />
+          <h2 class="text-2xl font-bold tracking-wider px-4">Zhen Juan Liang</h2>
+          <div class="px-4 flex flex-col gap-4">
+            <p class="font-bold text-xl">Legal/Compliance Officer</p>
+            <p class="text-sm">Corporate lawyer, compliance expert, mitigating risk, ensuring regulatory adherence efficiently.</p>
+          </div>
+          <button class="bg-richMahogany text-lavendarBlush px-8 py-4 w-[70%] m-auto rounded-2xl text-xl cursor-pointer bg-gradient-to-r hover:from-ashBrown">Connect</button>
+        </section>
+      </section>
+      </section>
+    </main>
+    <footer class="p-6 bg-richMahogany text-lavendarBlush mt-10">
+        <p class="text-center text-2xl font-bold">
+            &copy;2026 
+            <span class="font-['Italianno'] text-5xl m-4">NyxTech
+            </span>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
